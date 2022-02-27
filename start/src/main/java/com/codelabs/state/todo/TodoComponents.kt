@@ -201,6 +201,7 @@ fun TodoItemInputBackground(
  * @param modifier the modifier for this element
  * @param onImeAction (event) notify caller of [ImeAction.Done] events
  */
+// Stateless
 @OptIn(ExperimentalComposeUiApi::class)
 @Composable
 fun TodoInputText(
